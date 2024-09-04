@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Produto {
+public interface Produto {
+	double aceitar(ProdutoVisitor visitor);
 }
